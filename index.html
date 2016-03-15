@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Learning javascript</title>
+    <link rel='stylesheet' href='stylesheets/styles.css' />
+  </head>
+  <body class='bod'>
+    <h1 class='header'>JS calculator</h1>
+    <br />
+    <p>First number</p>
+    <input type="text" id="field1" />
+    <p>Second number</p>
+    <input type="text" id="field2" />
+    <br />
+    <p id='result' class="result"></p>
+    <p>Select an operator</p>
+    <div class="grid">
+    <button id='add' onclick='outputResult("+")'>+</button>
+    <button onclick='outputResult("-")'>-</button>
+    <button onclick='outputResult("*")'>*</button>
+    <button onclick='outputResult("/")'>/</button>
+    </div>
+
+    <script type='text/javascript' src='javascripts/main.js'></script>
+  </body>
+</html>

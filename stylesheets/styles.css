@@ -1,0 +1,11 @@
+.header {
+  color: green; 
+}
+
+.bod {
+  background-color: lightblue;
+}
+
+.grid {
+  inline: block;
+}
